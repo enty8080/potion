@@ -37,7 +37,7 @@ global _start
 
 ```nasm
 xor     eax,    eax     ; zero-initialize eax
-xor     edx,    edx     ; zero-initialize eax
+xor     edx,    edx     ; zero-initialize edx
 mov     al,     0xb     ; int execve(const char *filename, char *const argv[], char *const envp[]);
 ```
 
